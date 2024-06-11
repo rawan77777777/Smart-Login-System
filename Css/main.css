@@ -1,0 +1,50 @@
+
+body {
+    background-image: url(../images/QpIvNn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+p {
+    color: white;
+}
+p a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+p a:hover {
+    color: white !important;
+    text-decoration: underline;
+}
+.box {
+    width: 50%;
+    background-color: transparent;
+    box-shadow: -3px 2px 40px -9px rgb(0 0 0);
+}
+h2 {
+    color: #f1f1f1;
+    font-size: 40px;
+}
+input {
+    background-color: #273741;
+    border: white 1px solid;
+    color: white;
+}
+
+button {
+    color: #f8f8f8 !important;
+    border: 1px #dee6e7 solid !important; 
+}
+button:hover {
+    background-color: #0000002a !important;
+    color: white !important;
+}
+
+.nav-bar {
+    box-shadow: -2px 2px 30px -5px rgba(0, 0, 0, 0.767);
+}
+.welcome {
+    box-shadow: -2px 2px 30px -5px rgba(0, 0, 0, 0.76);
+}
