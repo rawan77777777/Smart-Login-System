@@ -37,18 +37,13 @@ function displayData(){
     }
     userInfo.push(user)
     localStorage.setItem('infoMore',JSON.stringify(userInfo))
-    location.href = '/index.html'
+    location.href = './index.html'
 }
 
 
 signBtn?.addEventListener('click',function(){
     signUp()
 })
-
-
-
-
-
 
 function signIn(){
     if ( signInEmail.value == '' || signInPass.value == '' ) {
@@ -66,12 +61,12 @@ function signIn(){
     }
 }
 
-logBtn.addEventListener('click',function(){
+logBtn?.addEventListener('click',function(){
     signIn()
 })
 
 
-let mainHome = document.querySelector('#home')
+let mainHome = document.querySelector('#homeUser')
 let login = localStorage.getItem('userName')
 
-mainHome.innerHTML = `<h2 class="text-dark">Welcome ${login}</h2>`
+mainHome.innerHTML = `<h2 class="text-dark">Welcome${login}</h2>`
